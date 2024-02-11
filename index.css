@@ -1,0 +1,84 @@
+.hero {
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/bg.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh; 
+}
+
+.section2 {
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/peak.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh; 
+}
+
+.section3 {
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/bg-bottom.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh; 
+}
+
+._01History{
+    position: absolute;
+    left: 10%;
+}
+
+._02History{   
+    left: 10%;
+}
+
+.sec2Nav{
+    background-color: #414f6b;
+    cursor: pointer;
+  }
+
+  .sec2Nav p{
+    color: #b0b4be;
+  }
+
+  .text-selected {
+    color: #414f6b !important; 
+}
+
+._4imgs{
+background-color: #414f6b;
+opacity: .7;
+padding: 10px;
+}
+
+._background {
+  background-color: white; /* Default background color for smaller screens */
+}
+
+/* Media query for medium and larger screens */
+@media (min-width: 768px) {
+  ._background {
+    background-color: transparent; /* Transparent background color for medium and larger screens */
+  }
+}
+
+.parent-div {
+  padding: 60px; /* Adjust the value as needed */
+  margin: 60px;
+}
+
+._table{
+  padding: 20px; 
+  max-width: 300px; 
+  margin: 0 auto; 
+  background-color: white;
+  opacity: .5;
+}
+
+
+
